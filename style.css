@@ -1,9 +1,11 @@
 :root{
     --primary:#18191F;
     --color:#4CAF4F;
+    --b-color:#4D4D4D;
+    --fontcolor: #717171;
 }
 .blackcolor{
-    color: var(--primary);
+    color: var(--primary) ; 
 }
 .text-green{
     color: var(--color);
@@ -16,6 +18,18 @@
 
 
 }
+.text-kala{
+    color: var(--b-color);
+}
+.f-color{
+color: var(--fontcolor);
+}
 .color-hover:hover{
     color: var(--color);
+}
+.w-30{
+    width: 45%;
+}
+.fs-7{
+    font-size: 15px;
 }
