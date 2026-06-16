@@ -1,8 +1,11 @@
 :root{
     --primary:#18191F;
     --color:#4CAF4F;
-    --b-color:#4D4D4D;
-    --fontcolor: #717171;
+
+}
+@font-face {
+    font-family: inter;
+    src: url(./fonts/Inter_18pt-SemiBold.ttf);
 }
 .blackcolor{
     color: var(--primary) ; 
@@ -18,18 +21,23 @@
 
 
 }
-.text-kala{
-    color: var(--b-color);
+.font{
+    font-family: inter;
 }
-.f-color{
-color: var(--fontcolor);
+.bg-color{
+    background-color: #F5F7FA;
 }
-.color-hover:hover{
-    color: var(--color);
+.coustom-wrap{
+    flex-wrap: wrap;
 }
-.w-30{
-    width: 45%;
-}
-.fs-7{
-    font-size: 15px;
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .coustomwidth{
+        width: 50%;
+    }
+    
 }
