@@ -1,6 +1,10 @@
 :root{
     --primary:#18191F;
     --color:#4CAF4F;
+    --color-2: #717171;
+    --color-3: #4D4D4D;
+    --color-4: #18191F;
+    --color-5: #F5F7FA;
 
 }
 @font-face {
@@ -30,6 +34,48 @@
 .coustom-wrap{
     flex-wrap: wrap;
 }
+.costum-gap-7{
+    gap: 80px;
+}
+.coustom-size-5{
+    font-size: 36px;
+    font-weight: 600;
+    
+    
+}
+.textcolor{
+    color: var(--color-3);
+}
+.size-7{
+    font-size: 16px;
+    color: var(--color-2);
+    
+}
+.text-717171{
+    color: var(--color-2);
+}
+.coustom-size-123{
+    font-family: inter;
+    font-size: 28px;
+    font-weight: bold ;
+}
+.fs-14{
+    font-size: 14px;
+}
+.text-color123{
+    color: var(--color-4);
+}
+.fimg-w-h{
+    width: 30px;
+    height: 30px;
+}
+.px-10{
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+
 
 
 
@@ -37,7 +83,10 @@
 
 @media screen and (max-width: 768px) {
     .coustomwidth{
-        width: 50%;
+        width: 100%;
+    }
+    .cos-size{
+        font-size: 36px;
     }
     
 }
