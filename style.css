@@ -5,6 +5,8 @@
     --color-3: #4D4D4D;
     --color-4: #18191F;
     --color-5: #F5F7FA;
+    --color-6: #263238;
+    --color-7: #263238;
 
 }
 @font-face {
@@ -61,6 +63,27 @@
 }
 .fs-14{
     font-size: 14px;
+}
+.color4{
+    color: var(--color-4);
+}
+.color5{
+    background-color: var(--color-5);
+}
+.color6{
+    color: var(--color-6);
+}
+.color7{
+    background-color: var(--color-7);
+}
+.textcolor5{
+    color: var(--color-5);
+}
+.ml-5{
+    margin-left: 160px !important;
+}
+.ml-4{
+    margin-left: 180px !important;
 }
 
 
