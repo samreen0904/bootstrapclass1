@@ -92,6 +92,9 @@
 .color8{
     background-color: var(--color-8);
 }
+.distribut{
+    width: 30% !important;
+}
 
 
 
@@ -102,13 +105,26 @@
 
 
 
-
-@media screen and (max-width: 768px) {
-    .coustomwidth{
-        width: 100%;
-    }
+@media screen and (min-width: 768px) {
+   
+   
+  
+    
+}
+@media screen and (max-width: 767px) {
     .cos-size{
         font-size: 36px;
     }
-    
+        .features {
+        display: flex !important;
+        text-align: center;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .features-content {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
 }
